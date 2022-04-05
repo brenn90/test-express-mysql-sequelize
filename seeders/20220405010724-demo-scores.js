@@ -75,6 +75,54 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date()
       },
+      {
+        id: 10,
+        studentId: 4,
+        classId: 1,
+        score: 2,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        id: 11,
+        studentId: 4,
+        classId: 2,
+        score: 4,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        id: 12,
+        studentId: 4,
+        classId: 3,
+        score: 4,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        id: 13,
+        studentId: 5,
+        classId: 1,
+        score: 5,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        id: 14,
+        studentId: 5,
+        classId: 2,
+        score: 3,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        id: 15,
+        studentId: 5,
+        classId: 3,
+        score: 5,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
     ]);
   },
 
