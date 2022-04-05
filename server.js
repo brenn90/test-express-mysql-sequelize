@@ -13,13 +13,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // db config
-const db = require("./app/models");
-db.sequelize.sync({ force: true }).then(() => {
-  console.log("Drop and re-sync db.");
-});
+const db = require("./models");
+db.sequelize.sync({ force: true });
 
 // routes config
 app.use('/api/students', require("./routes/student.routes"))
+app.use('/api/scores', require("./routes/score.routes"))
 
 app.get("/", (req, res) => {
   res.json({ message: "Welcome to students portal." });
